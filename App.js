@@ -22,11 +22,9 @@ import PageDeRecherche from './PageDeRecherche';
          </Pile.Navigator>
      );
  }
- export default class App extends Component<Props>
+ export default class App extends Component<props>
  {
-    
- 
-  render() {
+     render() {
  //return React.createElement(Text, {style: styles.description}, "Rechercher des pays :)");
 //  return <Text style={styles.description}>Rechercher des pays du monde entier :)</Text>
  return (
@@ -37,7 +35,7 @@ import PageDeRecherche from './PageDeRecherche';
   }
  
  }
- styles = StyleSheet.create({
+ const styles = StyleSheet.create({
      description: {
      fontSize: 18,
      textAlign: 'center',
